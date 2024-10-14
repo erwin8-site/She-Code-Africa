@@ -1,0 +1,238 @@
+@media (max-width: 1198px) {
+    .video {
+        padding: 50px;
+        width: calc(100% - 100px);
+    }
+
+    .support {
+        padding: 0 50px;
+    }
+
+    .support_block {
+        padding: 0 10px;
+        margin: 0;
+    }
+
+    .support_block q,
+    .support_block cite {
+        margin-left: 20px;
+    }
+
+    .team {
+        padding: 0 40px;
+        padding-bottom: 100px;
+    }
+
+    .team_list {
+        justify-content: center;
+    }
+
+    .footer_text {
+        top: 10%;
+    }
+}
+
+@media (max-width: 769px) {
+    header {
+        padding: 0 80px;
+    }
+
+    .header_links {
+        flex-wrap: wrap;
+        margin-right: 140px;
+
+    }
+
+    .header_links li a {
+        font-size: 20px;
+        width: 200%;
+
+
+    }
+
+    .code-afrika_img img {
+        width: 75%;
+        margin-left: 70px;
+        margin-bottom: 20px;
+
+    }
+
+
+    .code-afrika_text {
+        width: 50%;
+
+    }
+
+    .code-afrika_text p {
+        font-size: 18px;
+    }
+
+    .code-afrika_text h1 {
+        font-size: 35px;
+    }
+
+    .block_info {
+        margin-left: 70px;
+    }
+
+    .block_article {
+        margin-bottom: 20px;
+    }
+
+    .support_title {
+        margin-left: 20px;
+    }
+
+    .video {
+        padding: 50px 0;
+        width: 100%;
+    }
+
+    .support_logo {
+        float: none;
+        margin: auto;
+    }
+
+    .team_person {
+        flex-direction: column;
+    }
+
+    .team_person h3,
+    .team_person p {
+        text-align: center;
+    }
+
+    .header_links li.active {
+        border: none;
+        height: auto;
+    }
+
+    .team {
+        margin-left: 60px;
+    }
+    .footer_text {
+        top: 12%;
+    }
+    
+
+}
+
+@media (max-width: 426px) {
+    header {
+        padding: 0 10px;
+    }
+
+    .header_links {
+        flex-wrap: wrap;
+        margin-right: 140px;
+
+    }
+
+    .header_links li a {
+        font-size: 20px;
+        width: 200%;
+
+    }
+
+    .code-afrika_img img {
+        width: 70%;
+        margin-left: 60px;
+
+    }
+
+    .code-afrika_text {
+        width: 70%;
+
+    }
+
+    .code-afrika_text p {
+        font-size: 18px;
+    }
+
+    .code-afrika_text h1 {
+        font-size: 35px;
+    }
+
+    .block_info {
+        flex-wrap: wrap;
+        margin-right: 80px;
+
+    }
+
+    .block_article {
+        margin-bottom: 20px;
+
+    }
+
+    .support_title {
+        margin-left: 20px;
+    }
+
+    .support_block q {
+        font-size: 1.2rem;
+    }
+
+    .support_block cite {
+        font-size: 0.7rem
+    }
+
+    .footer_text {
+        top: 15%;
+    }
+
+}
+
+@media (max-width: 321px) {
+    header {
+        padding: 0 100px;
+        flex-direction: column;
+    }
+
+    .header_links {
+        flex-wrap: wrap;
+    }
+
+    .header_links li a {
+        font-size: 20px;
+        width: 200%;
+
+    }
+
+    .code-afrika_img img {
+        width: 70%;
+
+    }
+
+    .code-afrika_text {
+        width: 70%;
+
+    }
+
+    .code-afrika_text p {
+        font-size: 18px;
+    }
+
+    .code-afrika_text h1 {
+        font-size: 38px;
+    }
+
+    .block_info {
+        flex-wrap: wrap;
+        margin-right: 80px;
+
+    }
+
+    .block_article {
+        margin-bottom: 20px;
+
+    }
+
+    .support_title {
+        margin-left: 20px;
+    }
+
+    .footer_text {
+        top: 18%;
+    }
+
+}

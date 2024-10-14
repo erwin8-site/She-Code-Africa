@@ -1,0 +1,165 @@
+
+@font-face {
+    font-family: "One";
+    src: url("../Fonts/OtomanopeeOne-Regular.ttf");
+}
+
+@font-face {
+    font-family: "Open-sans";
+    font-weight: bold;
+    src: url("../Fonts/OpenSans/OpenSans-Bold.ttf");
+}
+
+@font-face {
+    font-family: "Open-sans";
+    src: url("../Fonts/OpenSans/OpenSans-Regular.ttf");
+}
+
+:root {
+    --blue: #006ed3;
+    --purple: #690039;
+}
+
+
+html body {
+    margin: 0;
+    padding: 0;
+    max-width:100%;
+}
+
+img {
+    width: 100%;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+li {
+    list-style: none;
+}
+
+hr {
+    border: none;
+}
+
+cite {
+    font-size: inherit;
+    font-style: normal;
+}
+
+button {
+    border: none;
+    font-size: inherit;
+}
+
+header {
+    display: flex;
+    padding: 0 70px;
+    justify-content: space-between;
+    box-shadow: 0 14px 28px #f3f3f3, 0 10px 10px #f3f3f3;
+}
+
+.header_logo {
+    padding: 10px;
+    width: 70px;
+}
+
+.header_logo img{
+    width: 70px;
+    max-width: 70px;
+    max-height: 70px;
+}
+
+.header_links {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.header_links li{
+    display: block;
+    margin: 0 20px;
+}
+
+.header_links .active {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    color: var(--purple);
+    border-bottom: 5px solid var(--purple);
+}
+
+.header_links li a{
+    font-family: One, sans-serif;
+    font-size: 20px;
+    display: block;
+    white-space: nowrap; 
+    text-transform: uppercase;
+    
+}
+
+
+footer {
+    display: flex;
+    justify-content: center;
+    background-color: #1f1f1f;
+    position: relative;
+}
+
+footer img {
+    padding: 20px;
+    width: 30%;
+    aspect-ratio: 1/1;
+}
+
+.footer_text {
+    width: 10%;
+    overflow: hidden;
+    white-space: nowrap;
+    color: #fff;
+    font-family: "Open-sans", sans-serif;
+    text-transform: uppercase;
+    font-size: 2vw;
+    position: absolute;
+    top: 9%;
+    left: 42.5%;
+    transform-origin: bottom left;
+    transform: rotateZ(50deg);
+    padding: 0 5px;
+    background-color: #B70569;
+    border-radius: 5px;
+}
+
+.footer_text p {
+    margin: auto;
+    display: block;
+    position: relative;
+    animation: 20s infinite linear run;
+}
+
+@keyframes run{
+    0% {
+        left: 300px;
+    }
+    50% {
+        left: -1250px;
+    }
+    100% {
+        left: -2500px;
+    }
+}
+
+/* footer p {
+    padding: 10%;
+    height: 10%;
+    animation: cubic-bezier(0.165, 0.84, 0.44, 1);
+} */
+
+
+
+/* .joinus {
+    cursor:pointer;
+} */

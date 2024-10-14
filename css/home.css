@@ -1,0 +1,244 @@
+
+.code-afrika {
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 100px;
+    margin-bottom: 20px;
+    /* height: 800px; */
+    flex-wrap: wrap;
+}
+
+.code-afrika_img {
+    display: inline-block;
+    
+}
+
+.code-afrika_text {
+    display: inline-block;
+    width: 30%;
+}
+
+.code-afrika_text h1 {
+    font-size: 48px;
+    font-family: One, sans-serif;
+}
+
+.code-afrika_text span {
+    color: var(--purple);
+    font-family: One, sans-serif;
+}
+
+.code-afrika_text p {
+    font-size: 20px;
+    font-family: "Open-sans", sans-serif;
+}
+
+.code-afrika_text button {
+    padding: 10px 20px;
+    font-weight: bold;
+    color: #fff;
+    font-family: "Open-sans", sans-serif;
+    background-color: #006ed3;
+    border-radius: 5px;
+    font-size: 20px;
+    position: relative;
+    cursor: pointer;
+    overflow: hidden;
+    transition: 0.5s;
+  
+}
+.code-afrika_text button:hover {
+
+    border-radius: 5px 20px 20px 5px;
+}   
+
+.code-afrika_text button::after {
+    content: '➜';
+    /*background-image: url(images/arrow--right.svg);*/
+    margin-left: 5px;
+    position: absolute;
+    right: 5;
+    transition: 0.5s;
+    cursor:pointer;
+    opacity: -100%;
+    
+    /*box-shadow: 0px 0px 6px 6px #65819b; */
+}
+
+
+.code-afrika_text button:hover::after {
+    left: 0;
+    position: relative;
+    opacity: 1;
+    
+}
+
+
+.support_us {
+    display: flex;
+    width: 100%;
+    height: auto;
+    background: #dddddd;
+    justify-content: center;
+}
+
+.support_title {
+    display: flex;
+    padding-left: 16px;
+    background: #dddddd;
+    justify-content: left;
+    font-family: One, sans-serif;
+    font-size: 1.5rem;
+
+}
+
+/* .block_info {
+    
+} */
+
+.block_article {
+    display: inline-block;
+    width: 18rem;
+    border-radius: 20px;
+    margin-left: 12px;
+    box-shadow: 0px 0px 2px 2px#d7d7d7bb;
+    background: #ffffff;
+    margin-bottom: 10px;
+}
+
+
+
+
+.block_article h3 {
+    padding-left: 10px;
+    font-family: "Open-sans";
+    text-decoration: underline;
+
+}
+
+.block_article p {
+    padding: 1rem;
+    font-size: 0.95rem;
+    font-family: "Open-sans";
+
+}
+
+.block_article i {
+    font-family: "Open-sans";
+    padding: 1rem;
+
+}
+
+.block_article a {
+    font-size: 1rem;
+    font-family: "Open-sans", sans-serif;
+    color: black;
+    text-decoration: underline;
+}
+
+
+.block_article img {
+    display: inline-block;
+    width: 300;
+    height: 200px;
+    border-radius: 20px 20px 0 0;
+
+}
+
+
+.block_article .img_icon img {
+    height: 60%;
+    width: 60%;
+}
+
+/* .progress_bar .progress_bar1  {
+    -webkit-appearance: none !important;
+    width: 82%;
+    margin-left: 20px;
+    height: 6px;
+    border-radius: 7px;
+    background: linear-gradient(90deg, #2382d9 20%, #dbdbdb 80%);
+    border: none;
+}
+.progress_bar .progress_bar2 {
+    -webkit-appearance: none !important;
+    width: 82%;
+    margin-left: 20px;
+    height: 6px;
+    border-radius: 7px;
+    background: linear-gradient(90deg, #2382d9 50%, #dbdbdb 50%);
+    border: none;
+}
+
+.progress_bar .progress_bar3 {
+    -webkit-appearance: none !important;
+    width: 82%;
+    margin-left: 20px;
+    height: 6px;
+    border-radius: 7px;
+    background: linear-gradient(90deg, #2382d9 85%, #dbdbdb 15%);
+    border: none;
+}
+
+.progress_bar input[type="range"]::-webkit-slider-thumb {
+    /*display: none;*/
+/* } */
+
+.progress_bar {
+    /* width: 100%; */
+    margin: 10px;
+    height: 7px;
+    background-color: #b4b4b4;
+    border-radius: 10px;
+    position: relative;
+}
+
+.progress_bar::before {
+    content: "";
+    display: block;
+    position: absolute;
+    width: 60%;
+    height: 100%;
+    border-radius: 10px;
+    background-color: var(--blue);
+}
+
+.block_article:nth-of-type(1) .progress_bar::before{
+    width: 20%;
+}
+
+.block_article:nth-of-type(2) .progress_bar::before{
+    width: 50%;
+}
+
+.block_article:nth-of-type(3) .progress_bar::before{
+    width: 90%;
+}
+
+.block_section {
+    display: flex;
+    height: 15vh;
+    align-items: center;
+}
+
+.title_block {
+    display: inline-block;
+    width: 55%;
+    height: auto;
+    margin-bottom: 20px;
+
+}
+
+.img_icon {
+    display: inline-block;
+    width: 25%;
+    margin-left: 20px;
+    height: 50px;
+}
+
+
+
+
+
+    
+  
